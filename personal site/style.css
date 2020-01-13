@@ -1,0 +1,452 @@
+*{
+    margin:0px;
+    padding:0px
+}
+.container{
+	width:1150px;
+	margin:auto;
+}
+p{
+    line-height:1.6;
+    color:#888
+}
+h2, h4{color:#474343}
+button{cursor:pointer}
+a{text-decoration:none}
+.header .slider{
+	width:100%;
+	height:400px;
+    text-align:center;
+    color:#fff;
+    padding-top:250px;
+    background-size:cover
+    
+}
+.header .slider{
+    background-image:url(image/slide10.jpg);
+    background-size:cover;
+}
+
+
+.header .slider h2{
+    
+    font-size:40px;
+    margin:0px auto;
+    width:650px;
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
+    padding:20px
+    
+}
+.header .slider h2 {color:#2ecc71}
+.header .slider span{color:#fff}
+
+.header .slider #btn{
+    margin-top: 40px;
+    padding: 10px 25px;
+    background:none;
+    color:#fff;
+    font-size:20px;
+    border:2px solid #fff;
+    font-weight:bold;
+    
+}
+
+.header .nav{
+	background-color:#252f31;
+	color:#fff;
+	overflow: hidden;
+    padding:12px;
+
+}
+.header .nav h2{
+    float:left;
+    padding-top: 12px;
+    color:#fff;
+}
+.header .nav h2 span{color:#2ecc71}
+.header .nav ul{
+	list-style:none;
+	padding-left:0px;
+	overflow: hidden;
+	float:right;
+	
+}
+
+ul li{float:left;padding:15px}
+.nav ul li a{text-decoration:none;
+    color:#fff;
+}
+.nav ul li a.active{color:#2ecc71}
+.nav ul li a:hover{color:#2ecc71}
+.features{
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.features .container div{
+    float:left;
+	width:30%;
+    margin-top:30px;
+	height:130px;
+	margin-bottom:20px;
+    
+}
+.features p{
+    line-height:1.6;
+    color:#888;
+    
+    
+    
+}
+.aboutme{
+    background-color:#f2f2f2;
+    overflow: hidden;
+}
+
+.aboutme img{
+	width:40%;
+	float:left;
+	height:550px;
+}
+.aboutme .about{
+    padding-top:5px;
+    margin:50px;
+    line-height:1.5
+}
+.aboutme .info h2{padding-left:10px}
+.aboutme .info{
+    float:left;
+    width:60%;
+    /*padding-left: 18px;*/
+}
+.aboutme .hobbies{overflow:hidden; margin-left:80px}
+.aboutme .hobbies > div{
+	width:40%;
+	float:left;
+	max-height:100px;
+    margin-left:60px;
+    line-height:1.6;
+    padding-top:10px;
+}
+
+.hobbies .demo3, .demo4{margin-top:30px}
+.info p{color:#888; margin:10px}
+
+.skills{
+    margin-top:6px;
+    overflow:hidden;
+}
+.skills .aboutskills h2{
+    padding-bottom:8px;
+    margin-bottom:20px
+}
+.skills .aboutskills p{
+    line-height:1.6;
+    color:#888;
+    
+}
+.skills .aboutskills{
+	width:50%;
+	float:left;
+	padding-top:60px;
+	padding-bottom:60px;
+    text-align:justify;
+    margin-right:30px;
+    
+    
+}
+.skills .aboutskills #pra2{margin-top:20px}
+.skills #demoSapn{
+    height:200px;
+    border-right:2px solid #888;
+    float:left;
+    margin-top:155px
+}
+.skills .myskills{
+    width:40%;
+	float:left;
+	padding-top:60px;
+	padding-bottom:60px;
+    margin-left:20px;
+    margin-top:30px
+}
+.skills .myskills div{
+    background-color:#f2f2f2;
+    height:20px;
+    margin-bottom:25px;
+    margin-top:10px;
+    color:#fff;
+    line-height:25px;
+    text-align:right;
+    font-weight:bold
+}
+.skills .myskills div span{
+    display:block;
+    background-color:#075;
+    height:20px
+}
+.skills #btn1{
+    margin-top:25px;
+    border:2px solid #0d6d6d;
+    outline:none;
+    color:#0d6d6d;
+    font-size:20px;
+    padding:5px 20px;
+    background-color:#fff;
+}
+
+.resume{
+	text-align:center;
+	background-color:#f2f2f2;
+	clear:both;
+	height: 250px;
+    padding-top: 50px;
+}
+.resume h2{
+    
+    padding-bottom:20px;
+    color:#474343
+}
+.resume p{
+    line-height:1.7;
+    font-size:20px;
+    color:#888;
+}
+.resume #demo{
+    margin-top:43px;
+    background-color:#fff;
+    border:2px solid #0d6d6d;
+    outline:none;
+    color:#0d6d6d;
+    font-size:20px;
+    padding:7px 10px;
+}
+
+.edu{
+    margin-top:60px;
+    overflow:hidden;
+    padding-bottom:20px;
+}
+.edu p{margin-top:20px}
+.edu .eduocation
+{
+    width:45%;
+    float:left;
+           
+}
+
+.edu .myedu{
+    width:40%;
+    padding-top:20px;
+    padding-left:40px;
+    float:left;
+        
+
+}
+.edu .myedu h4, .myedu1 h4{
+    margin-bottom:5px;
+    margin-bottom:8px;
+}
+.edu .myedu p, .myedu1 p{
+    margin-bottom:8px
+        
+}
+.edu .myedu #edubtn, .myedu1 #edubtn, .experince .deploma #btns, .deploma2 #demoA{
+    background-color:#0ddb21;
+    color:#fff;
+    border:none;
+    outline:none;
+    width:90px;
+    height:30px;
+    text-align:center;
+    margin-bottom:25px;
+    font-size:18px;
+    font-weight:bold
+    
+    
+}
+
+.edu .myedu1{
+    clear:both;
+    float:right;
+    width:40%;
+    margin-right:130px;
+    margin-top:50px;
+                 
+}
+.experince{
+    margin-top: 60px;
+    padding-top: 10px;
+    display: block;
+    overflow:hidden;
+}
+.experince .expert{
+    width:45%;
+    float:left;
+                                
+}
+.experince .expert h2{margin-bottom:15px}
+.experince .expert #prag2{
+    padding-top:15px
+}
+.experince .deploma{
+    width:40%;
+    float:left;
+    margin-left:45px;
+        
+
+}
+.experince .deploma h4, .deploma2 h4{
+    padding-top:25px
+}
+
+.experince .deploma2{
+    clear:both;
+    float:right;
+    margin-right:70px;
+    width:45%;
+    margin-top:30px;
+}
+.experince .deploma2 P, .deploma p{
+    padding-top:15px;
+    padding-bottom:20px;
+}
+.opainains{
+    overflow:hidden;
+    margin-top:50px;
+    padding-top:50px;
+    background-color:#f2f2f2;
+    text-align:center;
+    height:180px;
+}
+.opainains .opain h2{padding-top:30px}
+
+.port{
+    text-align:center;
+    margin-top:55px;
+    width: 70%;
+    padding-left: 180px;
+}
+.our-work{
+    overflow:hidden;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.our-work div{
+    float:left;
+    padding-right:30px;
+    padding-bottom:20px
+}
+
+.form{
+   background-color:#938c8c;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:#fff;
+    overflow:hidden;
+    height:600px;
+    padding-top:50px;
+}
+
+.form .contact-info{
+    width:50%;
+    float:left
+}
+.contact-info h2{
+    padding-bottom:20px;
+    color:#252f31
+}
+.contact-info p{
+    color:#5F5F7A;
+    font-size:18px;
+    padding:6px;
+}
+
+.form .register{
+    width:40%;
+    padding-left:50px;
+    float:left
+}
+
+.form .register input, label, textarea{
+    display:block;
+    margin-top:10px;
+    margin-top:20px;
+    border-radius:8px
+}
+
+label{
+    font-size:30px;
+    font-family:"Chiller Regular"
+}
+
+.form .register input{
+    background-color:#5f5f5f;
+    width:350px;
+    outline:none;
+    border:none;
+    padding:10px;
+    color:#fff;
+    font-size:22px
+}
+.form .register textarea{
+    background-color:#5f5f5f;
+    outline:none;
+    border:none;
+    color:#fff;
+    width:370px;
+    height:200px;
+    font-size:25px;
+    
+
+}
+
+.form .register #sub{
+    margin-top:30px;
+    padding:10px 15px;
+    background-color:#2ecc50;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-size:20px;
+    cursor:pointer
+}
+
+.footer{
+    background-color:#252F23;
+    border-bottom:12px solid #252f34;
+    color:#fff;
+    text-align:center;
+    padding:20px 0px;
+}
+
+.footer p{
+    font-size:22px;
+    color:#f2e3e3;
+    font-family:"Berlin Sans FB Bold";
+    font-weight: bold;
+}
+
+.footer .social img{
+    border-radius:60%;
+    width:40px;
+    height:40px;
+    margin:25px auto 20px;
+    padding:5px 10px;
+    cursor: pointer;
+}
+
+.footer h2{
+    color:#003;
+    font-size:25px;
+    margin:10px;
+    font-style:italic;
+    
+}
+
+.footer h2 span{
+    color:#00f;
+    font-style:italic;
+    font-family:"Edwardian Script ITC R...";
+}
